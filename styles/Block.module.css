@@ -1,0 +1,19 @@
+.block {
+  position: absolute;
+  display: block;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box; /* Include border and padding in the element's total width and height */
+}
+
+.filled {
+  border: 1px solid #333;
+  background-color: #333;
+}
